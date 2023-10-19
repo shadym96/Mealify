@@ -1,0 +1,193 @@
+@media screen and (min-width:400px) and (max-width:600px) {
+    .container {
+        width: 370px;
+    }
+    .nav-bar .container .nav-links {
+        display: none;
+    }
+    .nav-bar .container .dark .menu {
+        display: block;
+    }
+    .nav-bar .container .dark .menu:hover ul {
+        visibility: visible;
+        opacity: 1;
+        right: 7%;
+    }
+    .nav-bar .container .dark {
+        width: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-bar .container .dark .menu ul {
+        padding: 0px 20px;
+        position: absolute;
+        background-color: #fff;
+        top: 100%;
+        right: -15%;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    .nav-bar .container .dark .menu ul li {
+        padding: 20px;
+    }
+    .nav-bar .container .dark .menu ul li a {
+        color: var(--ter-color);
+        transition: all var(--anim-duration);
+    }
+    .nav-bar .container .dark .menu ul li a:hover {
+        color: var(--default-color);
+    }
+    .nav-bar .container .dark {
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header {
+        align-items: flex-start;
+    }
+    header .row {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        padding-top: 60px;
+    }
+    header .content {
+        text-align: center;
+    }
+    header .btns {
+        justify-content: center;
+    }
+    .main-heading p {
+        line-height: 1.3;
+        margin-top: 10px;
+    }
+    .contact form .inp-gp > input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px) {
+    header {
+        align-items: flex-start;
+    }
+    header .row {
+        padding-top: 60px;
+    }
+    .nav-bar .container .nav-links {
+        display: none;
+    }
+    .nav-bar .container .dark .menu {
+        display: block;
+    }
+    .nav-bar .container .dark .menu:hover ul {
+        visibility: visible;
+        opacity: 1;
+        right: 7%;
+    }
+    .nav-bar .container .dark {
+        width: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-bar .container .dark .menu ul {
+        padding: 0px 20px;
+        position: absolute;
+        background-color: #fff;
+        top: 100%;
+        right: -15%;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    .nav-bar .container .dark .menu ul li {
+        padding: 20px;
+    }
+    .nav-bar .container .dark .menu ul li a {
+        color: var(--ter-color);
+        transition: all var(--anim-duration);
+    }
+    .nav-bar .container .dark .menu ul li a:hover {
+        color: var(--default-color);
+    }
+
+    .nav-bar .container .dark i {
+        margin-right: 10px;
+    }
+    header .row {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    header .content {
+        text-align: center;
+    }
+    header .btns {
+        justify-content: center;
+    }
+    .contact form .inp-gp > input {
+        width: 100%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    header {
+        align-items: flex-start;
+    }
+    header .row {
+        padding-top: 60px;
+    }
+    .nav-bar .container .nav-links {
+        display: none;
+    }
+    .nav-bar .container .dark .menu {
+        display: block;
+    }
+    .nav-bar .container .dark .menu:hover ul {
+        visibility: visible;
+        opacity: 1;
+        right: 7%;
+    }
+    .nav-bar .container .dark {
+        width: 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-bar .container .dark .menu ul {
+        padding: 0px 20px;
+        position: absolute;
+        background-color: #fff;
+        top: 100%;
+        right: -15%;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.7s;
+    }
+    .nav-bar .container .dark .menu ul li {
+        padding: 20px;
+    }
+    .nav-bar .container .dark .menu ul li a {
+        color: var(--ter-color);
+        transition: all var(--anim-duration);
+    }
+    .nav-bar .container .dark .menu ul li a:hover {
+        color: var(--default-color);
+    }
+
+    .nav-bar .container .dark i {
+        margin-right: 10px;
+    }
+    header .row {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+    header .content {
+        text-align: center;
+    }
+    header .btns {
+        justify-content: center;
+    }
+}
